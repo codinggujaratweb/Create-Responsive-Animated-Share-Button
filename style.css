@@ -1,19 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
-  background: #0984e3;
+  background: #010101;
 }
+
 .mainbox {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 label {
   position: relative;
   background: #fff;
@@ -26,14 +30,16 @@ label {
   font-weight: 500;
   text-transform: uppercase;
   display: block;
-  color: #0984e3;
+  color: #010101;
   cursor: pointer;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
 }
+
 label:hover {
   letter-spacing: 1px;
 }
+
 label::before {
   content: "Cancel";
   position: absolute;
@@ -45,12 +51,15 @@ label::before {
   border-radius: 35px;
   opacity: 0;
 }
+
 #check {
   display: none;
 }
-#check:checked ~ label::before {
+
+#check:checked~label::before {
   opacity: 1;
 }
+
 .media-icons {
   position: absolute;
   left: 50%;
@@ -71,11 +80,13 @@ label::before {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
 }
-#check:checked ~ .media-icons {
+
+#check:checked~.media-icons {
   opacity: 1;
   pointer-events: auto;
   top: -100px;
 }
+
 .media-icons::before {
   content: "";
   width: 18px;
@@ -87,23 +98,29 @@ label::before {
   transform: translateX(-50%) rotate(45deg);
   z-index: -1;
 }
+
 .media-icons a {
   font-size: 24px;
-  color: #0984e3;
+  color: #010101;
   transition: all 0.3s ease;
 }
+
 .media-icons a:hover {
   transform: translateY(-2px);
 }
+
 .media-icons a:nth-child(1):hover {
   color: #426782;
 }
+
 .media-icons a:nth-child(2):hover {
   color: #1da1f2;
 }
+
 .media-icons a:nth-child(3):hover {
   color: #e1306c;
 }
+
 .media-icons a:nth-child(4):hover {
   color: #ff0000;
 }
