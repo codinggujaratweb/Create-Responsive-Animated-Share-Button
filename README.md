@@ -3,8 +3,8 @@
 
 ### 🎥 Video tutorial: [Watch Now](https://youtu.be/j3ZqHLCiL3s)
 
-### 🌟 Live Preview: [Check it out here](https://codinggujaratweb.github.io/Create-Responsive-Draggable-Carousel-Slider/)
-### 📂 Source Code: [Download here](https://github.com/codinggujaratweb/Create-Responsive-Draggable-Carousel-Slider)
+### 🌟 Live Preview: [Check it out here](https://codinggujaratweb.github.io/Create-Responsive-Animated-Share-Button/)
+### 📂 Source Code: [Download here](https://github.com/codinggujaratweb/Create-Responsive-Animated-Share-Button)
 
 ### 💼 Connect with me on LinkedIn:  [Aman Nayak](https://www.linkedin.com/in/amanayak/)
 ### 📸 Follow me on Instagram:  [CodingGujarat](https://instagram.com/codinggujarat/)
